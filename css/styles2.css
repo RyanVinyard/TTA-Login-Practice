@@ -1,0 +1,112 @@
+#submit {
+  background-color: #00ccff;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  display: block;
+  margin: 12px auto;
+}
+
+#rememberMe {
+  /*margin: 5% 0 0 10px;*/
+  font-size: 12px;
+}
+
+.forgotPass {
+  width: 100%;
+  text-align: center;
+}
+
+.login {
+  /*width: 500px;
+  height: 320px;*/
+  margin: 10% auto;
+}
+
+.formHeader {
+  width: 100%;
+  height: 10%;
+  background-color: #dedee0;
+  border-bottom: 2px solid #a1a1a1;
+  text-align: center;
+  padding: 3% 0 0 0;
+  border-radius: 10px 10px 0 0;
+}
+
+input {
+  margin: 4px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  background-color: #000080;
+}
+
+form {
+  background-color: #eff0f2;
+  padding: 5% 5%;
+  border-radius: 0 0 8px 8px;
+}
+
+/* Large screens will use this */
+
+@media (min-width:500px) {
+  .login {
+    width: 500px;
+    height: 300px;
+  }
+  input[type="textbox"],
+  input[type="password"] {
+    width: 430px;
+    font-size: 20px;
+  }
+  #submit {
+    font-size: 20px;
+    width: 124px;
+    height: 50px;
+    margin: 44px 0 0 110px;
+
+  }
+
+  .forgotPass a {
+    margin: 0 0 0 34%;
+  }
+  #rememberMe {
+    margin: 5% 0 0 10px;
+  }
+}
+
+/*Smaller screens will use this */
+
+@media (max-width:499px) {
+  .login {
+    width: 300px;
+    height: 296px;
+  }
+  input[type="textbox"],
+  input[type="password"] {
+    width: 250px;
+    font-size: 15px;
+  }
+  #submit {
+    font-size: 14px;
+    width: 224px;
+    height: 40px;
+    margin: 15% 0 0 7%;
+
+  }
+
+  .forgotPass a {
+    margin: 0 0 0 25%;
+  }
+  #rememberMe {
+    margin: 6% 0 0 5%;
+  }
+}
